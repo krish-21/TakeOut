@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+// React Hooks
+import { useState } from "react";
 
-function App() {
+// Context
+import CartProvider from "./store/CartProvider";
+
+//Custom Components
+import Header from "./components/Layout/Header";
+import Cart from "./components/Cart/Cart";
+import Food from "./components/Food/Food";
+
+const App = () => {
+  const [showCart, setShowCart] = useState(false);
+
+  const handleShowCart = () => {
+    setShowCart(true);
+  };
+
+  const handleHideCart = () => {
+    setShowCart(false);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // Wrap for Components which need access to Cart Context
+    <CartProvider>
+      {/* Conditionally Render Cart */}
+      {showCart && <Cart onClose={handleHideCart} />}
+
+      {/* Header */}
+      <Header onShowCart={handleShowCart} />
+
+      {/* Main Content */}
+      <main>
+        <Food />
+      </main>
+    </CartProvider>
   );
-}
+};
 
 export default App;
