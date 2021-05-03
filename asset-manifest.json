@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/TakeOut/static/css/main.82339ad0.chunk.css",
+    "main.js": "/TakeOut/static/js/main.e93d06b0.chunk.js",
+    "main.js.map": "/TakeOut/static/js/main.e93d06b0.chunk.js.map",
+    "runtime-main.js": "/TakeOut/static/js/runtime-main.c91181db.js",
+    "runtime-main.js.map": "/TakeOut/static/js/runtime-main.c91181db.js.map",
+    "static/js/2.bb88422a.chunk.js": "/TakeOut/static/js/2.bb88422a.chunk.js",
+    "static/js/2.bb88422a.chunk.js.map": "/TakeOut/static/js/2.bb88422a.chunk.js.map",
+    "index.html": "/TakeOut/index.html",
+    "static/css/main.82339ad0.chunk.css.map": "/TakeOut/static/css/main.82339ad0.chunk.css.map",
+    "static/js/2.bb88422a.chunk.js.LICENSE.txt": "/TakeOut/static/js/2.bb88422a.chunk.js.LICENSE.txt",
+    "static/media/food-table.69f83e2b.jpeg": "/TakeOut/static/media/food-table.69f83e2b.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c91181db.js",
+    "static/js/2.bb88422a.chunk.js",
+    "static/css/main.82339ad0.chunk.css",
+    "static/js/main.e93d06b0.chunk.js"
+  ]
+}
