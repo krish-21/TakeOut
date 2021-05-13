@@ -4,7 +4,7 @@ Delicious Food, Delivered to You
 
 ## Features
 
-- View list of Food which can be orderd
+- View list of Food which can be ordered
 - Add Food to Cart
 - View Cart
 - Modify Cart within the Cart
