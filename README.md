@@ -9,7 +9,14 @@ Delicious Food, Delivered to You
 - View Cart
 - Modify Cart within the Cart
   - Remove Food Item
-  - Add Food Item
+  - Increase amount of Food Item
+- Add Delivery Address
+- Place Order
+
+## Technology
+
+- Frontend: React.js
+- Backend: Firebase
 
 ## Website
 
@@ -22,10 +29,5 @@ No registration required as of now
 ---
 
 # TakeOut is still under development!!!
-
-- Only basic front-end built
-- Checkout feaure to be added
-- HTTP Requests to be Added
-- Backend with Express.js to be added
 
 ---
