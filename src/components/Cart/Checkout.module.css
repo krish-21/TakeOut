@@ -1,0 +1,118 @@
+.title {
+  color: white;
+  margin-top: 2rem;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid #bebebe;
+}
+
+.form {
+  margin-top: 1rem;
+  height: 19rem;
+  overflow: scroll;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  display: block;
+  color: #b1b1b1;
+}
+
+.control input {
+  font: inherit;
+  font-size: 1.2rem;
+  color: #ccc;
+  border: 1px solid #717171;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 100%;
+  padding: 1rem;
+  caret-color: #68b151;
+}
+
+.control input:focus {
+  outline-width: 0;
+  border: 1px solid #94c48c;
+  background-color: #272727;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.actions button {
+  font: inherit;
+  color: #fff;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+.actions .button-alt {
+  padding: 0.5rem 1rem;
+  border: 1px solid #fff;
+}
+
+.actions .submit {
+  padding: 0.5rem 2rem;
+  background-color: #6dd34d;
+  border: 1px solid #6dd34d;
+  font-weight: 500;
+  box-shadow: 0 2px 8px #0000008c;
+}
+
+.actions .submit:hover:enabled {
+  box-shadow: 0 2px 8px #6cd34d;
+}
+.actions .submit:active:enabled {
+  background-color: #68b151;
+}
+
+.actions .submit:disabled {
+  color: #ccc;
+  background-color: #1c341b;
+  border: 1px solid #1c341b;
+  cursor: not-allowed;
+}
+
+.invalid label {
+  color: #ca3e51;
+}
+
+.invalid input {
+  border-color: #aa0b20;
+  background-color: #1f1f1f;
+}
+
+.invalid p {
+  color: #ca3e51;
+}
+
+@media screen and (max-width: 503px) {
+  .actions {
+    display: block;
+    text-align: center;
+  }
+
+  .actions .button-alt {
+    margin: auto;
+    padding: 0.2rem 0.8rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .actions .submit {
+    margin: 0;
+    padding: 0.5rem 1.5rem;
+  }
+}

@@ -13,12 +13,13 @@
 
 .cart-item:last-of-type {
   margin-bottom: 0;
+  border-bottom: 5px solid #bebebe;
 }
 
 .cart-item h2 {
   font-size: 1rem;
   margin: 0 0 0.5rem 0;
-  color: #fff;
+  color: #68b151;
 }
 
 .summary {
@@ -30,17 +31,17 @@
   max-width: fit-content;
   font-weight: 500;
   font-size: 0.6rem;
-  border: 1px solid #ccc;
+  border: 1px solid #fff;
   padding: 0.15rem 0.6rem;
   margin-bottom: 0.5rem;
   border-radius: 6px;
-  color: #ccc;
+  color: #fff;
 }
 
 .price {
   font-weight: 700;
   font-size: 0.8rem;
-  color: #6dd34d;
+  color: #ccc;
 }
 
 .actions {
@@ -63,12 +64,14 @@
 
 .actions .inc-button {
   color: #6dd34d;
+  color: #93de7a;
   border-color: #6dd34d;
 }
 
 .actions .inc-button:hover,
 .actions .inc-button:active {
   background-color: #6dd34d;
+  background-color: #93de7a;
   color: #fff;
 }
 

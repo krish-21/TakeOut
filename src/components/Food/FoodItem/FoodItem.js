@@ -12,10 +12,12 @@ import styles from "./FoodItem.module.css";
 import FoodItemFrom from "./FoodItemForm";
 
 const FoodItem = (props) => {
+  // Cart Context
   const cartCtx = useContext(CartContext);
 
   const price = `$${props.price.toFixed(2)}`;
 
+  // Add item to cart
   const handleAddToCart = (amount) => {
     cartCtx.addItem({
       id: props.id,

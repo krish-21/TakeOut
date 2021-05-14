@@ -1,3 +1,10 @@
+.title {
+  color: white;
+  margin: 0.5rem 0;
+  padding-bottom: 0.8rem;
+  border-bottom: 5px solid #bebebe;
+}
+
 .cart-items {
   list-style: none;
   margin: 0;
@@ -26,6 +33,8 @@
   font-weight: 700;
   margin: 1rem 0;
   color: #fff;
+  padding-bottom: 1rem;
+  border-bottom: 5px solid #bebebe;
 }
 
 .actions {
@@ -34,6 +43,7 @@
 
 .actions button {
   font: inherit;
+  color: #fff;
   cursor: pointer;
   background-color: transparent;
   border-radius: 25px;
@@ -42,7 +52,6 @@
 
 .actions .button-alt {
   padding: 0.5rem 1rem;
-  color: #fff;
   border: 1px solid #fff;
 }
 
@@ -50,7 +59,6 @@
   padding: 0.5rem 2rem;
   background-color: #6dd34d;
   border: 1px solid #6dd34d;
-  color: white;
   font-weight: 500;
   box-shadow: 0 2px 8px #0000008c;
 }
@@ -60,6 +68,30 @@
 }
 .actions .button:active {
   background-color: #68b151;
+}
+
+.req-text {
+  text-align: center;
+}
+
+.req-text h2 {
+  font-size: 1.5rem;
+}
+
+.req-text .req-text-loading {
+  color: #fff;
+}
+
+.req-text .req-text-success {
+  color: #6dd34d;
+}
+
+.req-text .req-text-failure {
+  color: #ca3e51;
+}
+
+.req-text .req-text-retry {
+  color: #ccc;
 }
 
 @media screen and (max-width: 503px) {
@@ -78,5 +110,9 @@
   .actions .button {
     margin: 0;
     padding: 0.2rem 1.5rem;
+  }
+
+  .req-text h2 {
+    font-size: 1rem;
   }
 }

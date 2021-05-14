@@ -11,6 +11,7 @@ import Input from "../../UI/Input";
 const FoodItemForm = (props) => {
   const amountInputRef = useRef();
 
+  // Submit form
   const handleSubmit = (event) => {
     event.preventDefault();
 

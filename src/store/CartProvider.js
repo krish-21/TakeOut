@@ -90,6 +90,9 @@ const cartReducer = (state, action) => {
       };
     }
 
+    case "CLEAR_CART":
+      return defaultCart;
+
     // return old state if no matching action
     default:
       return state;
@@ -107,12 +110,17 @@ const CartProvider = (props) => {
     dispatchCartAction({ type: "REMOVE_ITEM", payload: id });
   };
 
+  const handleClearCart = () => {
+    dispatchCartAction({ type: "CLEAR_CART" });
+  };
+
   // connect state and context
   const cartContext = {
     items: cartState.items,
     totalAmount: cartState.totalAmount,
     addItem: handleAddItem,
     removeItem: handleRemoveItem,
+    clearCart: handleClearCart,
   };
 
   return (

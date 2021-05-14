@@ -9,6 +9,7 @@ const CartContext = createContext({
   addItem: (item) => {},
   // eslint-disable-next-line no-unused-vars
   removeItem: (id) => {},
+  clearCart: () => {},
 });
 
 export default CartContext;

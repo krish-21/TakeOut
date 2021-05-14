@@ -11,6 +11,16 @@
   padding: 0;
 }
 
+.food-loading {
+  text-align: center;
+  color: #fff;
+}
+
+.food-error {
+  text-align: center;
+  color: #d32121;
+}
+
 @keyframes food-appear {
   from {
     opacity: 0;

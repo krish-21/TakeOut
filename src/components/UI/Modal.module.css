@@ -10,7 +10,7 @@
 
 .modal {
   position: fixed;
-  top: 20vh;
+  top: 15vh;
   left: 20%;
   right: 20%;
   background-color: #1f1f1f;
@@ -19,6 +19,9 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   z-index: 30;
   animation: slide-down 300ms ease-out forwards;
+  max-height: 75%;
+  overflow: auto;
+  min-width: 50%;
 }
 
 @media (min-width: 768px) {
