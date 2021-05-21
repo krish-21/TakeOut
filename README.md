@@ -21,13 +21,3 @@ Delicious Food, Delivered to You
 ## Website
 
 Head to [TakeOut](https://krish-21.github.io/TakeOut/).
-
-## Usage
-
-No registration required as of now
-
----
-
-# TakeOut is still under development!!!
-
----
